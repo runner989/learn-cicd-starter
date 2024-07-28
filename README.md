@@ -23,3 +23,4 @@ go build -o notely && ./notely
 You do *not* need to set up a database or any interactivity on the webpage yet. Instructions for that will come later in the course!
 
 Adding a comment to create a change in a file for Github.
+Adding another comment because I cannot read instructions and merged the pull request when I was only supposed to create a PR.
