@@ -88,6 +88,7 @@ func main() {
 
 	v1Router.Get("/healthz", handlerReadiness)
 
+	// If ReadHeaderTimeout is too small, it causes ERR_EMPTY_RESPONSE.
 	router.Mount("/v1", v1Router)
 	srv := &http.Server{
 		Addr:              ":" + port,
